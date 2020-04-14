@@ -1,7 +1,14 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Lato", sans-serif;
 }
+
+@font-face {
+  font-family: cocogoose;
+  src: url("cocogoose/Cocogoose_trial.otf");
+}
+
 
 header {
   background-image: linear-gradient(to right, rgba(226, 255, 255, 0.85), #e6dbe3), url("images/fest.jpg");
@@ -15,19 +22,23 @@ header {
   width: 50px;
 }
 
+body {
+  background: rgba(221, 221, 221, 0.3) !important;
+  /* opacity: 0.1; */
+}
+
 .small-nav {
-  background-color: #3E3E3E;
+  background-color: #272a31;
   color: white;
 }
 
 .fa-twitter,
 .fa-facebook-f {
-  background-color: white;
-  color: white;
+  color: white !important;
 }
 
-.nav-link {
-  color: red !important;
+.small-nav .nav-link {
+  color: white !important;
 }
 
 .navbar .nav-link {
@@ -39,4 +50,36 @@ header {
   border: 5px solid #ec5242;
   padding: 5px 7px;
   color: #ec5242;
+}
+
+.welcome-tag {
+  color: #ec5242;
+  text-transform: capitalize;
+  margin-top: -1.25em;
+  margin-bottom: 1em;
+}
+
+p {
+  font-size: 14px;
+}
+
+.head-tag {
+  font-family: cocogoose;
+  font-size: 60px;
+  line-height: 60px;
+  color: #ec5242;
+  text-transform: uppercase;
+}
+
+.description-tag {
+  width: 500px;
+  border: 2px solid white;
+  padding: 1em;
+  margin: 3em 0;
+}
+
+.date {
+  font-family: cocogoose;
+  font-size: 30px;
+  color: #272a31;
 }
