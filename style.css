@@ -4,9 +4,39 @@
 }
 
 header {
-  background-image: url("images/fest.jpg");
-  height: 300px;
+  background-image: linear-gradient(to right, rgba(226, 255, 255, 0.85), #e6dbe3), url("images/fest.jpg");
+  height: 200px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.logo {
+  width: 50px;
+}
+
+.small-nav {
+  background-color: #3E3E3E;
+  color: white;
+}
+
+.fa-twitter,
+.fa-facebook-f {
+  background-color: white;
+  color: white;
+}
+
+.nav-link {
+  color: red !important;
+}
+
+.navbar .nav-link {
+  color: #272a31;
+  margin-right: 3em;
+}
+
+.campaign {
+  border: 5px solid #ec5242;
+  padding: 5px 7px;
+  color: #ec5242;
 }
