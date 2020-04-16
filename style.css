@@ -104,15 +104,17 @@ p {
   color: white;
 }
 
-.main-program {
+.aside-header{
   font-weight: 700;
   padding-top: 2em;
   /* border-bottom: 2px solid #ec5242; */
   /* border-width: 1; */
 }
 
-span {
+.header-span {
+  width: 50px;
   border: 1px solid #ec5242;
+  margin-bottom: 2em;
 }
 
 .prog1 {
@@ -142,6 +144,47 @@ span {
   width: 70%;
   /* max-width: 720px; */
   /* margin-left: 1em; */
+}
+
+.join-btn {
+  width: 80%;
+  background: #ec5242;
+  border: none;
+  color: white;
+  font-size: 21px;
+  font-weight: 600;
+  padding: 2em;
+  margin: 2em 0;
+}
+
+.guests-img {
+  float: left;
+}
+
+.guests-img {
+  width: 120px;
+  margin-right: 1em;
+}
+
+.guests-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.guests-background {
+  font-size: 14px;
+  font-style: italic;
+  color: #ec5242;
+}
+
+.guests-border {
+  width: 100px;
+  background: #ec5242;
+  border-bottom: 1px solid #3C3F46;
+}
+
+.guests-more {
+  font-size: 14px;
 }
 
 
