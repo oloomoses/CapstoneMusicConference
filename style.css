@@ -187,11 +187,11 @@ p {
   font-size: 14px;
 }
 
-footer,
+
 .partners {
   background: #414246;
   color: white;
-  padding-bottom: 1em;
+  padding-bottom: 2em;
 }
 
 .logos-header {
@@ -201,7 +201,8 @@ footer,
 }
 
 .footer-logos {
-  display: flex;
+  display: flex;  
+  flex-direction: row;
   justify-content: center;
 }
 
@@ -209,6 +210,15 @@ footer,
   width: 100px;
   margin-right: 4em;
 }
+
+.copyrights {
+  float: left;
+}
+
+.rights {
+  padding: 3em;
+}
+
 
 
 
