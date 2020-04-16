@@ -177,6 +177,11 @@ p {
   margin-right: 1em;
 }
 
+.right-float {
+  display: flex;
+  flex-direction: column;
+}
+
 .guests-name {
   font-size: 18px;
   font-weight: bold;
@@ -189,15 +194,22 @@ p {
 }
 
 .guests-border {
-  width: 100px;
+  width: 30px;
   background: #ec5242;
   border-bottom: 1px solid #3C3F46;
+  margin: 10px 0;
 }
 
 .guests-more {
   font-size: 14px;
 }
 
+.more-btn {
+  width: 100%;
+  border: 1px solid #414246;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 .partners {
   background: #414246;
@@ -208,6 +220,7 @@ p {
 .logos-header {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
@@ -223,11 +236,24 @@ p {
 }
 
 .copyrights {
-  float: left;
+  margin-right: 3em;
+
 }
 
 .rights {
-  padding: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4em;
+}
+
+.nav-nav,
+.main,
+.aside1-container,
+.aside2-container,
+.footer-black-bg,
+.main-nav {
+  max-width: 1120px;
 }
 
 .nav-link:hover {
@@ -273,6 +299,7 @@ p {
   .prog-header {
     width: unset;
     margin-bottom: 1em;
-  }  
+  }
+
 }
 
