@@ -46,83 +46,106 @@
     <a href="index.html"><i class="fas fa-home fa-2x"></i></a>
   </div>
 
-  <main class="container-fluid main border-bottom">
+  <main class="container-fluid tickets-main border-bottom">
 
     <div class="logos-header">
       <h4 class="aside-header">Select Tickets</h4>
       <span class="header-span"></span>
     </div>
 
-    <div class="select-ticket-tag border">
-      <ul>
-        <li>Step 1</li>
-      </ul>
-      <p>Please select your arival day</p>
+    <div class="select-ticket-tag border d-flex justify-content-start p-1">
+      <div class="step-div"><ul><li class="step-li">Step 1</li></ul></div>
+      <div><p>Please select your arival day</p></div>        
     </div>
 
     <div>
-      <p class="contact-us">You can reach us for more info on Africa Music Festival</p>
-      <p class="about-mail">africanfest@africa.org</p>
+      <table class="table table-bordered text-center mb-5">
+        <thead>
+          <tr>
+            <th scope="col">Ticket</th>
+            <th scope="col">Day 1</th>
+            <th scope="col">Day 2</th>
+            <th scope="col">Day 3</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Date</th>
+            <td>15th</td>
+            <td>16th</td>
+            <td>17th</td>
+          </tr>
+          <tr>
+            <th scope="row">Regurlar</th>
+            <td class="price-tag">
+              <p>$ 600</p>
+              <input type="radio" name="select">
+            </td>
+            <td class="price-tag">
+              <p>$ 400</p>
+              <input type="radio" name="select">
+            </td>
+            <td class="price-tag">
+              <p>$ 300</p>
+              <input type="radio" name="select">
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">V.I.P</th>
+            <td class="price-tag">
+              <p>$ 1000</p>
+              <input type="radio" name="select">
+            </td>
+            <td class="price-tag">
+              <p>$ 800</p>
+              <input type="radio" name="select">
+            </td>
+            <td class="price-tag">
+              <p>$ 500</p>
+              <input type="radio" name="select">
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
     </div>
   </main>
 
   <aside class="about-aside1 text-center pt-5">
     <div class="container-fluid aside1-container">
 
-      <h4 class="about-aside-header">Africa Music Festival Theme</h4>
-      <span class="header-span"></span>      
-
-      <div class="about-theme">
-        <p>The theme for this project is based on:</p>
-        <p>[https://www.behance.net/gallery/29845175/CC-Global-Summit-2015]
-        (https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
-        Design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07)</p>
-      </div>
-
-      <div class="theme border">
-        <img class="theme-img" src="images/logo.png" alt="vodaphone">
-      </div>
-
-    </div>
-  </aside>
-
-  <aside class="aside2 text-center border-top">
-
-    <div class="container-fluid aside2-container">
-
-      <div class="logos-header">
-        <h4 class="aside-header">See The Past Music Fest</h4>
-        <span class="header-span"></span>
-      </div>
+      <h4 class="about-aside-header">Select you lunch</h4>
+      <span class="header-span"></span>  
       
-      <div class="row guests text-left"> 
-        
-
-        <div class="col-lg-5 mt-4 past-fest festival">
-          <div class="fest-year">2019</div>
-          <div class="fest-venue">
-            Africa Music Festival Nairobi, Kenya
-          </div>
-
-        </div>
-
-        <div class="col d-none d-lg-block">
-          
-
-        </div>
-
-        <div class="col-lg-5 mt-4 past-fest1 festival">
-          <div class="fest-year">2018</div>
-          <div class="fest-venue">
-            Africa Music Festival Lagos, Nigeria
-          </div>
-
-        </div>
-
+      <div class="select-ticket-tag border d-flex justify-content-start p-1">
+        <div class="step-div"><ul><li class="step-li">Step 2</li></ul></div>
+        <div>Please select your lunch for the registered date</div>        
       </div>
+
+      <div class="menu-box mb-4">
+        <form action="#">
+          Menu 1: <input type="radio" name="select" class="menu-item">
+          Menu 2: <input type="radio" name="select" class="menu-item">
+          Menu 3: <input type="radio" name="select" class="menu-item">
+          Menu 4: <input type="radio" name="select" class="menu-item">
+        </form>
+        
+      </div>
+
+      <div class="menu-box">
+        <form action="#">
+          Menu 1: <input type="radio" name="select" class="menu-item">
+          Menu 2: <input type="radio" name="select" class="menu-item">
+          Menu 3: <input type="radio" name="select" class="menu-item">
+          Menu 4: <input type="radio" name="select" class="menu-item">
+        </form>
+      </div>
+
+      <button name="button" type="button" class="join-btn">Submit</button>
 
     </div>
   </aside>
+
 
   <footer class="text-center border-top mt-4">
     <div class="container-fluid partners d-lg-none">

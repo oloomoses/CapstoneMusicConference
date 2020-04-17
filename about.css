@@ -4,7 +4,6 @@
   align-items: center;
   text-align: center;
   margin-top: 2em;
-  clear: both;
 }
 
 .about-head-tag {
@@ -90,10 +89,44 @@
   color: white;
 }
 
-.select-ticket-tag {
-  display: flex;
-  justify-content: left;
+.tickets-main {
   align-items: center;
-  border-radius: 10px;
-  width: 70%;
+  justify-content: center;
+}
+
+.select-ticket-tag {
+  border-radius: 30px;
+  /* width: 30%; */
+  color: black;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 3em;
+}
+
+.step-div {
+  margin: 0 2em !important;
+  color: #ec5242;
+}
+
+.table {
+  width: 80% !important;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.price-tag {
+  color: #ec5242;
+  font-weight: bold;
+}
+
+.menu-box {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  border: 1px solid;
+  padding: 70px;
+}
+
+.menu-item {
+  margin-right: 2em;
 }
