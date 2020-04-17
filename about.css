@@ -1,0 +1,85 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 5em;
+}
+
+.about-head-tag {
+  max-width: 700px;
+  font-family: "cocogoose", sans-serif;
+  font-size: 40px;
+  line-height: 60px;
+  color: #ec5242;
+  text-transform: uppercase;
+}
+
+.about-description-tag {
+  max-width: 900px;
+  background: white;
+  border: 2px solid white;
+  padding: 1em;
+  margin: 3em 0;
+}
+
+.about-mail {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.about-aside1 {
+  background: white;
+}
+
+.about-aside-header {
+  color: black;
+}
+
+.about-theme {
+  width: 60%;
+  /* background: #ec5242; */
+  /* border: none; */
+  color: black;
+  /* font-size: 21px; */
+  /* font-weight: 600; */
+  padding: 1em;
+  margin: 2em 0;
+}
+
+.theme {
+  padding: 1em 10em;
+  margin-bottom: 3em;
+}
+
+.theme-img {
+  width: 150px;
+}
+
+.past-fest {  
+  background-image: linear-gradient(to right, rgba(238, 82, 60, 0.65), rgba(238, 82, 60, 0.65)), url("images/download.jpeg");
+}
+
+.past-fest1 {
+  width: 100%;
+  background-image: linear-gradient(to right, rgba(238, 82, 60, 0.65), rgba(238, 82, 60, 0.65)), url("images/fest.jpg");
+}
+
+.festival {
+  width: 100%;
+  height: 200px;
+  color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.fest-year {
+  font-size: 23px;
+  font-weight: 900;
+}
