@@ -33,7 +33,7 @@ Some of the features build in this project include;
 
 ## Live Demo 
 
-[Live Demo](https://rawcdn.githack.com/oloomoses/newsweek.com-clone/591f3d34bfd8806b73f13dd6c6346eb6c0bf39dc/index.html
+[Live Demo](https://rawcdn.githack.com/oloomoses/CapstoneMusicConference/a26cafe0daec70a812784a61b8614dd1f424edd9/index.html)
 
 ## Prerequisites
 
