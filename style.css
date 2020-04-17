@@ -9,7 +9,6 @@
   src: url("cocogoose/Cocogoose_trial.otf");
 }
 
-
 header {
   width: 100%;
   background-image: linear-gradient(to right, rgba(226, 255, 255, 0.85), #e6dbe3), url("images/fest.jpg");
@@ -25,7 +24,6 @@ header {
 
 body {
   background: rgba(221, 221, 221, 0.3) !important;
-  /* opacity: 0.1; */
 }
 
 .small-nav {
@@ -91,7 +89,7 @@ p {
 
 .date {
   max-width: 500px;
-  font-family: cocogoose;
+  font-family: "cocogoose", sans-serif;
   font-size: 30px;
   color: #272a31;
 }
@@ -125,7 +123,7 @@ p {
 
 .prog1 {
   width: auto;
-  background: #3C3F46;
+  background: #3c3f46;
   margin: 1em;
   padding: 1em;
   display: flex;
@@ -146,8 +144,6 @@ p {
 
 .p-text {
   width: 70%;
-  /* max-width: 720px; */
-  /* margin-left: 1em; */
 }
 
 .join-btn {
@@ -170,9 +166,6 @@ p {
 
 .guests-img {
   float: left;
-}
-
-.guests-img {
   width: 120px;
   margin-right: 1em;
 }
@@ -196,7 +189,7 @@ p {
 .guests-border {
   width: 30px;
   background: #ec5242;
-  border-bottom: 1px solid #3C3F46;
+  border-bottom: 1px solid #3c3f46;
   margin: 10px 0;
 }
 
@@ -225,7 +218,7 @@ p {
 }
 
 .footer-logos {
-  display: flex;  
+  display: flex;
   flex-direction: row;
   justify-content: center;
 }
@@ -270,7 +263,7 @@ p {
     font-size: 60px;
   }
 
-  .welcome-tag {    
+  .welcome-tag {
     font-size: 35px;
   }
 
@@ -301,6 +294,4 @@ p {
     width: unset;
     margin-bottom: 1em;
   }
-
 }
-
