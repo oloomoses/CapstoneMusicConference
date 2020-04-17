@@ -13,7 +13,7 @@ Some of the features build in this project include;
   - backgroung image
   - linear gradients
 
-![screenshot](/images/Screenshot1.jpg)
+![screenshot](/images/Screenshot1.png)
 
 ## Built With:
 
@@ -24,6 +24,13 @@ Some of the features build in this project include;
   - float
   - Bootstrap 4
 
+
+## Code Review
+
+  - [HTML Validator](https://validator.w3.org/)
+  - CSS Linter
+  - Microverse Team
+
 ## Live Demo 
 
 [Live Demo](https://rawcdn.githack.com/oloomoses/newsweek.com-clone/591f3d34bfd8806b73f13dd6c6346eb6c0bf39dc/index.html
@@ -31,7 +38,7 @@ Some of the features build in this project include;
 ## Prerequisites
 
 Modern browser
--It was tested on the latest version of firefox73 and chrome80
+- It was tested on the latest version of firefox73 and chrome80
 
 ## Author
 
@@ -41,6 +48,23 @@ Oloo Moses
 - Github: [@githubhandle](https://github.com/oloomoses)
 - Twitter: [@twitterhandle](https://twitter.com/olooine)
 - Linkedin: [linkedin](https://www.linkedin.com/in/oloo-moses-528bb1b3/)
+
+## References, credits, and copyrights
+
+  ### UX Design:
+
+  - [Design idea by Cyndy Shin](https://www.behance.net/adagio07)
+
+  ### Page Content:
+
+  - Photos and texts credits to (https://globalyoungacademy.net/)
+  and (https://www.bbc.com/news/world-africa-50689205)
+
+  ### Acknowledgments
+
+- This project was part of Microverse's curriculum in CSS/HTML learning program
+- https://fontawesome.com/icons
+- Github
 
 ## 🤝 Contributing
 
@@ -52,15 +76,9 @@ Feel free to check the [issues page](issues/).
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- This project was part of Microverse's curriculum in CSS/HTML learning program
-
 
 ## 📝 License
 
 This project is [MIT](lic.url) licensed.
 
-
-This is project to create newsweek.com home page clone using bootstrap, HTML and CSS.
 
