@@ -38,11 +38,7 @@
 
 .about-theme {
   width: 60%;
-  /* background: #ec5242; */
-  /* border: none; */
   color: black;
-  /* font-size: 21px; */
-  /* font-weight: 600; */
   padding: 1em;
   margin: 2em 0;
 }
@@ -56,7 +52,7 @@
   width: 150px;
 }
 
-.past-fest {  
+.past-fest {
   background-image: linear-gradient(to right, rgba(238, 82, 60, 0.65), rgba(238, 82, 60, 0.65)), url("images/download.jpeg");
 }
 
@@ -96,7 +92,6 @@
 
 .select-ticket-tag {
   border-radius: 30px;
-  /* width: 30%; */
   color: black;
   margin-right: auto;
   margin-left: auto;
