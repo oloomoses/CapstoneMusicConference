@@ -111,10 +111,12 @@
   font-weight: 700;
 }
 
-.table {
+.table-content .table {
   width: 80%;
   margin-right: auto;
   margin-left: auto;
+  border: 0.4em solid #ec5242;
+  background: white;
 }
 
 .price-tag {

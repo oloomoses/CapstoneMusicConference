@@ -25,8 +25,8 @@
   width: 50px;
 }
 
-body {
-  background: rgba(221, 221, 221, 0.3);
+.body {
+  background: rgba(211, 211, 211, 0.5)
 }
 
 .small-nav {
