@@ -136,3 +136,14 @@
 .menu-item {
   margin-right: 2em;
 }
+
+.diamond-shape {
+  width: 55px;
+  background: #ec5242;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  padding: 1em;
+  transform: rotate(45deg);
+  margin-bottom: -1.54em;
+}
