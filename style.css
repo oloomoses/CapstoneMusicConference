@@ -211,6 +211,7 @@ p {
   margin-right: auto;
   margin-left: auto;
   margin-top: 2em;
+  cursor: pointer;
 }
 
 .partners {
