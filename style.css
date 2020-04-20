@@ -128,7 +128,7 @@ p {
 }
 
 .prog1 {
-  width: auto;
+  width: 90%;
   background: #3c3f46;
   margin: 1em;
   padding: 1em;
@@ -142,14 +142,15 @@ p {
 }
 
 .prog-header {
-  width: 200px;
-  font-size: 21px;
+  width: 40%;
+  font-size: 1.3rem;
   font-weight: 700;
   color: #ec5242;
 }
 
 .p-text {
   width: 70%;
+  font-size: 1rem;
 }
 
 .join-btn {
@@ -161,6 +162,7 @@ p {
   font-weight: 600;
   padding: 2em;
   margin: 2em 0;
+  cursor: pointer;
 }
 
 .see-prog {
@@ -262,6 +264,20 @@ p {
 
 .prog1:hover {
   border: 1px solid white;
+}
+
+@media screen and (max-width: 576px) {
+  .prog-header {
+    width: 40%;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #ec5242;
+  }
+  
+  .p-text {
+    width: 70%;
+    font-size: 0.75rem;
+  }
 }
 
 @media screen and (min-width: 992px) {
