@@ -31,6 +31,10 @@ body {
   color: white;
 }
 
+.fa-home {
+  color: #414246;
+}
+
 .fa-twitter,
 .fa-facebook-f {
   color: white !important;
