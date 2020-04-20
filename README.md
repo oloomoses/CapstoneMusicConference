@@ -3,14 +3,14 @@
 
 ## Description:
 
-This is a capstione project build from scratch, to showcase some of the fundamental concepts that I have learnt
+This is a capstone project build from scratch, to showcase some of the fundamental concepts that I have learnt
 throughout the microverse HTML CSS main course.
 
 Some of the features build in this project include;
 
   - Web responsiveness
   - typography
-  - backgroung image
+  - background image
   - linear gradients
 
 ![screenshot](/images/Screenshot1.png)
