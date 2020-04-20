@@ -86,25 +86,33 @@
 }
 
 .tickets-main {
-  align-items: center;
-  justify-content: center;
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .select-ticket-tag {
+  width: auto;
+  display: flex;
+  border: 1px solid #d3d3d3;
   border-radius: 30px;
   color: black;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3em;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 3em;
 }
 
 .step-div {
-  margin: 0 2em !important;
+  margin: 0 2em;
   color: #ec5242;
+  font-weight: 700;
 }
 
 .table {
-  width: 80% !important;
+  width: 80%;
   margin-right: auto;
   margin-left: auto;
 }
@@ -117,8 +125,9 @@
 .menu-box {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   color: black;
-  border: 1px solid;
+  border: 1px solid #d3d3d3;
   padding: 70px;
 }
 

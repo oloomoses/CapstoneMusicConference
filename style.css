@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: cocogoose;
-  src: url("cocogoose/Cocogoose_trial.otf");
+  src: url("cocogoose/Cocogoose_trial.otf");  
 }
 
 .header-background {
@@ -26,12 +26,16 @@
 }
 
 body {
-  background: rgba(221, 221, 221, 0.3) !important;
+  background: rgba(221, 221, 221, 0.3);
 }
 
 .small-nav {
   background-color: #272a31;
   color: white;
+}
+
+.fa-bars {
+  color: #414246;
 }
 
 .fa-home {  
@@ -40,11 +44,11 @@ body {
 
 .fa-twitter,
 .fa-facebook-f {
-  color: white !important;
+  color: white;
 }
 
 .small-nav .nav-link {
-  color: white !important;
+  color: white;
 }
 
 .navbar {
@@ -56,8 +60,8 @@ body {
   margin-right: 3em;
 }
 
-.active {
-  color: #ec5242 !important;
+.navbar-nav .active-link {
+  color: #ec5242;
 }
 
 .campaign {
