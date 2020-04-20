@@ -34,7 +34,7 @@ body {
   color: white;
 }
 
-.fa-home {
+.fa-home {  
   color: #414246;
 }
 
@@ -197,7 +197,7 @@ p {
 .guests-border {
   width: 30px;
   background: #ec5242;
-  border-bottom: 1px solid #3c3f46;
+  border-bottom: 2px solid #d3d3d3;
   margin: 10px 0;
 }
 
@@ -206,10 +206,11 @@ p {
 }
 
 .more-btn {
-  width: 90%;
-  border: 1px solid #414246;
+  width: 100%;
+  border: 1px solid #d3d3d3;
   margin-right: auto;
   margin-left: auto;
+  margin-top: 2em;
 }
 
 .partners {
@@ -266,7 +267,7 @@ p {
   border: 1px solid white;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 500px) {
   .prog-header {
     width: 40%;
     font-size: 0.75rem;
