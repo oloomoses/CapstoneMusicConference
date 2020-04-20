@@ -12,10 +12,13 @@
 .header-background {
   width: 100%;
   background-image: linear-gradient(to right, rgba(226, 255, 255, 0.85), #e6dbe3), url("images/fest.jpg");
-  height: 200px;
+  height: 130px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: absolute;
+  top: 0;
+  z-index: -1;
 }
 
 .logo {
@@ -45,7 +48,7 @@ body {
 }
 
 .navbar {
-  background: white;
+  background: transparent;
 }
 
 .navbar .nav-link {
@@ -66,8 +69,7 @@ body {
 .welcome-tag {
   color: #ec5242;
   text-transform: capitalize;
-  margin-top: -1.25em;
-  margin-bottom: 1em;
+  margin-top: 2em;
   font-size: 30px;
 }
 
@@ -263,12 +265,22 @@ p {
 }
 
 @media screen and (min-width: 992px) {
+  .header-background {
+    height: unset;
+    height: 300px;
+  }
+
+  .navbar {
+    background: white;
+  }
+
   .head-tag {
     font-size: 60px;
   }
 
   .welcome-tag {
     font-size: 35px;
+    margin-top: 4em;
   }
 
   .program-container {
