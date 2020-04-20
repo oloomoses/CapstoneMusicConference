@@ -51,7 +51,7 @@ Oloo Moses
 
 ## References, credits, and copyrights
 
-  ### UX Design:
+  ### UI Design:
 
   - [Design idea by Cyndy Shin](https://www.behance.net/adagio07)
 

@@ -9,7 +9,7 @@
   src: url("cocogoose/Cocogoose_trial.otf");
 }
 
-header {
+.header-background {
   width: 100%;
   background-image: linear-gradient(to right, rgba(226, 255, 255, 0.85), #e6dbe3), url("images/fest.jpg");
   height: 200px;
