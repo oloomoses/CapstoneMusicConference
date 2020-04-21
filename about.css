@@ -1,0 +1,150 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 2em;
+}
+
+.about-head-tag {
+  max-width: 700px;
+  font-family: "cocogoose", sans-serif;
+  font-size: 40px;
+  line-height: 60px;
+  color: #ec5242;
+  text-transform: uppercase;
+}
+
+.about-description-tag {
+  max-width: 900px;
+  background: white;
+  border: 2px solid white;
+  padding: 1em;
+  margin: 3em 0;
+}
+
+.about-mail {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.about-aside1 {
+  background: white;
+}
+
+.about-aside-header {
+  color: black;
+}
+
+.about-theme {
+  width: 60%;
+  color: black;
+  padding: 1em;
+  margin: 2em 0;
+}
+
+.theme {
+  width: 50%;
+  padding: 1em 0;
+  margin-bottom: 3em;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.theme-img {
+  width: 150px;
+}
+
+.past-fest {
+  background-image: linear-gradient(to right, rgba(238, 82, 60, 0.65), rgba(238, 82, 60, 0.65)), url("images/download.jpeg");
+}
+
+.past-fest1 {
+  background-image: linear-gradient(to right, rgba(238, 82, 60, 0.65), rgba(238, 82, 60, 0.65)), url("images/fest.jpg");
+}
+
+.festival {
+  height: 200px;
+  color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.fest-year {
+  font-size: 23px;
+  font-weight: 900;
+}
+
+.about-footer-black-bg {
+  background: #414246;
+  color: white;
+}
+
+.tickets-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.select-ticket-tag {
+  width: auto;
+  display: flex;
+  border: 1px solid #d3d3d3;
+  border-radius: 30px;
+  color: black;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3em;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.step-div {
+  margin: 0 2em;
+  color: #ec5242;
+  font-weight: 700;
+  margin-bottom: -15px;
+}
+
+.table-content .table {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  border: 0.4em solid #ec5242;
+  background: white;
+}
+
+.price-tag {
+  color: #ec5242;
+  font-weight: bold;
+}
+
+.menu-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  border: 1px solid #d3d3d3;
+  padding: 70px;
+}
+
+.menu-item {
+  margin-right: 2em;
+}
+
+.diamond-shape {
+  width: 55px;
+  background: #ec5242;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  padding: 1em;
+  transform: rotate(45deg);
+  margin-bottom: -1.54em;
+}

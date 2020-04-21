@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="about.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+<body class="body">
+  <nav class="small-nav d-none d-lg-block">
+    <nav class="container-fluid d-flex justify-content-end nav-nav">
+      
+        <a class="nav-link" href="#"><i class="fab fa-facebook-f"></i></a>
+        <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
+        <a class="nav-link" href="#">Language</a>
+        <a class="nav-link" href="#">Login</a>
+      
+    </nav>
+  </nav>
+
+  <nav class="navbar navbar-expand-lg top-nav sticky-top">
+    <div class="container-fluid main-nav">
+        <a class="navbar-brand d-none d-lg-block" href="index.html"><img class="logo" src="images/logo.png" alt="Logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars fa-2x"></i>
+        </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>          
+          <li class="nav-item"><a class="nav-link active-link" href="tickets.html">Book Now</a></li>
+        </ul>
+        
+        <div class="campaign ml-5">MF Campaign</div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid home-logo d-none d-lg-block text-right mt-4">
+    <a href="index.html"><i class="fas fa-home"></i></a>
+  </div>
+
+  
+
+    <div class="logos-header">
+      <h4 class="aside-header">Select Tickets</h4>
+      <span class="header-span"></span>
+    </div>
+
+  <main class="container-fluid tickets-main border-bottom">
+    
+    <div class="select-ticket-tag p-2">
+      <div class="step-div"><ul><li class="list-item step-li">Step 1</li></ul></div>
+      <div class="mr-3">Please select your arival day</div>        
+    </div>
+
+    <div class="table-content">
+      <table class="table table-bordered text-center mb-5">
+        <thead>
+          <tr>
+            <th scope="col">Ticket</th>
+            <th scope="col">Day 1</th>
+            <th scope="col">Day 2</th>
+            <th scope="col">Day 3</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Date</th>
+            <td>15th</td>
+            <td>16th</td>
+            <td>17th</td>
+          </tr>
+          <tr>
+            <th scope="row">Regurlar</th>
+            <td class="price-tag">
+              <p>$ 600</p>
+              <input type="radio" name="select">
+            </td>
+            <td class="price-tag">
+              <p>$ 400</p>
+              <input type="radio" name="select">
+            </td>
+            <td class="price-tag">
+              <p>$ 300</p>
+              <input type="radio" name="select">
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">V.I.P</th>
+            <td class="price-tag">
+              <p>$ 1000</p>
+              <input type="radio" name="select">
+            </td>
+            <td class="price-tag">
+              <p>$ 800</p>
+              <input type="radio" name="select">
+            </td>
+            <td class="price-tag">
+              <p>$ 500</p>
+              <input type="radio" name="select">
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+  </main>
+
+  <div class="diamond-shape"><i class="fas fa-chevron-down"></i></div>
+
+  <aside class="about-aside1 text-center pt-5">
+    <div class="container-fluid aside1-container">
+
+      <h4 class="about-aside-header">Select you lunch</h4>
+      <span class="header-span"></span>  
+      
+      <div class="select-ticket-tag border p-2">
+        <div class="step-div"><ul><li class="list-item step-li">Step 1</li></ul></div>
+        <div class="mr-3">Please select your lunch for the registered date</div>        
+      </div>
+
+      <div class="menu-box mb-4">
+        <form action="#">
+          Menu 1: <input type="radio" name="select" class="menu-item">
+          Menu 2: <input type="radio" name="select" class="menu-item">
+          Menu 3: <input type="radio" name="select" class="menu-item">
+          Menu 4: <input type="radio" name="select" class="menu-item">
+        </form>
+        
+      </div>
+
+      <div class="menu-box">
+        <form action="#">
+          Menu 1: <input type="radio" name="select" class="menu-item">
+          Menu 2: <input type="radio" name="select" class="menu-item">
+          Menu 3: <input type="radio" name="select" class="menu-item">
+          Menu 4: <input type="radio" name="select" class="menu-item">
+        </form>
+      </div>
+
+      <button name="button" type="button" class="join-btn">Submit</button>
+
+    </div>
+  </aside>
+
+
+  <footer class="text-center border-top mt-4">
+    <div class="container-fluid partners d-lg-none">
+    
+      <div class="">
+        <div class="logos-header">
+          <h4 class="aside-header">Partners</h4>
+          <span class="header-span"></span>
+        </div>
+        
+        <div class="row d-md-block d-lg-none">
+          <div class="col-md-12 d-flex justify-content-center">
+            <img class="partner-img" src="images/coca.png" alt="Partners">
+            <img class="partner-img" src="images/vodafone.png" alt="Partners">
+            <img class="partner-img" src="images/saf.png" alt="Partners">
+          </div>
+          
+          <div class="col-md-12 d-flex justify-content-center">
+            <img class="partner-img" src="images/google.png" alt="Partners">
+            <img class="partner-img" src="images/naver.png" alt="Partners">
+          </div>
+          
+        </div>
+
+        <div class="footer-logos d-none d-lg-block">
+            <img class="partner-img" src="images/coca.png" alt="Partners">
+            <img class="partner-img" src="images/vodafone.png" alt="Partners">
+            <img class="partner-img" src="images/saf.png" alt="Partners">
+            <img class="partner-img" src="images/google.png" alt="Partners">
+            <img class="partner-img" src="images/naver.png" alt="Partners">
+                
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="about-footer-black-bg text-center d-none d-lg-block">
+      <div class="rights container-fluid">
+        <div class="copyrights">
+          <img class="logo" src="images/logo.png" alt="logo">
+        </div>
+        <div class="attribution">
+          <p>
+            2020 Africa Music Festival.
+            some rights reseved
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

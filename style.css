@@ -1,0 +1,340 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+@font-face {
+  font-family: cocogoose;
+  src: url("cocogoose/Cocogoose_trial.otf");
+}
+
+.header-background {
+  width: 100%;
+  background-image: linear-gradient(to right, rgba(226, 255, 255, 0.85), #e6dbe3), url("images/fest.jpg");
+  height: 130px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.logo {
+  width: 50px;
+}
+
+.body {
+  background: rgba(211, 211, 211, 0.5);
+}
+
+.small-nav {
+  background-color: #272a31;
+  color: white;
+}
+
+.fa-bars {
+  color: #414246;
+}
+
+.fa-home {
+  color: #414246;
+}
+
+.fa-chevron-down {
+  color: white;
+  transform: rotate(-45deg);
+}
+
+.fa-twitter,
+.fa-facebook-f {
+  color: white;
+}
+
+.small-nav .nav-link {
+  color: white;
+}
+
+.navbar {
+  background: transparent;
+}
+
+.navbar .nav-link {
+  color: #272a31;
+  margin-right: 3em;
+}
+
+.navbar-nav .active-link {
+  color: #ec5242;
+}
+
+.campaign {
+  border: 5px solid #ec5242;
+  padding: 5px 7px;
+  color: #ec5242;
+}
+
+.welcome-tag {
+  color: #ec5242;
+  text-transform: capitalize;
+  margin-top: 2em;
+  font-size: 30px;
+}
+
+p {
+  font-size: 14px;
+}
+
+.head-tag {
+  max-width: 700px;
+  font-family: "cocogoose", sans-serif;
+  font-size: 40px;
+  line-height: 60px;
+  color: #ec5242;
+  text-transform: uppercase;
+}
+
+.description-tag {
+  max-width: 500px;
+  border: 2px solid white;
+  padding: 1em;
+  margin: 3em 0;
+}
+
+.date {
+  max-width: 500px;
+  font-family: "cocogoose", sans-serif;
+  font-size: 30px;
+  color: #272a31;
+}
+
+.venue {
+  font-size: 20px;
+}
+
+.aside1 {
+  width: 100%;
+  background: #272a31;
+}
+
+.aside1-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.aside-header {
+  font-weight: 700;
+  padding-top: 2em;
+}
+
+.header-span {
+  width: 50px;
+  border: 1px solid #ec5242;
+  margin-bottom: 2em;
+}
+
+.prog1 {
+  width: 90%;
+  background: #3c3f46;
+  margin: 1em;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.icon {
+  margin: 0 1em;
+}
+
+.prog-header {
+  width: 40%;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #ec5242;
+}
+
+.p-text {
+  width: 70%;
+  font-size: 1rem;
+}
+
+.join-btn {
+  width: 80%;
+  background: #ec5242;
+  border: none;
+  color: white;
+  font-size: 21px;
+  font-weight: 600;
+  padding: 2em;
+  margin: 2em 0;
+  cursor: pointer;
+}
+
+.see-prog {
+  color: white;
+  border-bottom: 1px solid white;
+  cursor: pointer;
+  margin: 3em;
+}
+
+.guests-img {
+  float: left;
+  width: 120px;
+  margin-right: 1em;
+}
+
+.right-float {
+  display: flex;
+  flex-direction: column;
+}
+
+.guests-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.guests-background {
+  font-size: 14px;
+  font-style: italic;
+  color: #ec5242;
+}
+
+.guests-border {
+  width: 30px;
+  background: #ec5242;
+  border-bottom: 2px solid #d3d3d3;
+  margin: 10px 0;
+}
+
+.guests-more {
+  font-size: 14px;
+}
+
+.more-btn {
+  width: 100%;
+  border: 1px solid #d3d3d3;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2em;
+  cursor: pointer;
+}
+
+.partners {
+  background: #414246;
+  color: white;
+  padding-bottom: 2em;
+}
+
+.logos-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.partner-img {
+  width: 100px;
+  margin-right: 4em;
+}
+
+.copyrights {
+  margin-right: 3em;
+}
+
+.rights {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4em;
+}
+
+.nav-nav,
+.tickets-main,
+.home-logo,
+.main,
+.aside1-container,
+.aside2-container,
+.footer-black-bg,
+.main-nav {
+  max-width: 1120px;
+}
+
+.nav-link:hover {
+  color: #ec5242;
+}
+
+.prog1:hover {
+  border: 1px solid white;
+}
+
+@media screen and (max-width: 500px) {
+  .prog-header {
+    width: 40%;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #ec5242;
+  }
+
+  .p-text {
+    width: 70%;
+    font-size: 0.75rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .header-background {
+    height: unset;
+    height: 300px;
+  }
+
+  .navbar {
+    background: white;
+  }
+
+  .head-tag {
+    font-size: 60px;
+  }
+
+  .welcome-tag {
+    font-size: 35px;
+    margin-top: 4em;
+  }
+
+  .program-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .prog1 {
+    display: unset;
+    margin: unset;
+    margin: 0.25em;
+    text-align: center;
+    justify-content: center;
+    width: 20%;
+  }
+
+  .p-text {
+    width: unset;
+  }
+
+  .icon {
+    margin: unset;
+    margin: 1em 0;
+  }
+
+  .prog-header {
+    width: unset;
+    margin-bottom: 1em;
+  }
+}
