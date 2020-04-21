@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: cocogoose;
-  src: url("cocogoose/Cocogoose_trial.otf");  
+  src: url("cocogoose/Cocogoose_trial.otf");
 }
 
 .header-background {
@@ -26,7 +26,7 @@
 }
 
 .body {
-  background: rgba(211, 211, 211, 0.5)
+  background: rgba(211, 211, 211, 0.5);
 }
 
 .small-nav {
@@ -38,7 +38,7 @@
   color: #414246;
 }
 
-.fa-home {  
+.fa-home {
   color: #414246;
 }
 
@@ -284,7 +284,7 @@ p {
     font-weight: 700;
     color: #ec5242;
   }
-  
+
   .p-text {
     width: 70%;
     font-size: 0.75rem;
